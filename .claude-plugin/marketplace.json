@@ -1,0 +1,12 @@
+{
+  "name": "archa-ai",
+  "description": "Pluginurile Archa-ai pentru proiectanții din construcții din România",
+  "owner": { "name": "Archa-ai", "url": "https://archa-ai.ro" },
+  "plugins": [
+    {
+      "name": "archa-ai",
+      "source": "./plugins/archa-ai",
+      "description": "Legislația și normativele de construcții din România, prin conectorul Archa-ai: caută înainte de a răspunde, citează verbatim, verifică răspunsul."
+    }
+  ]
+}
