@@ -12,6 +12,17 @@ incendiu, seismic, termic, instalații, parcaje și celelalte acte din bibliotec
 - Într-un memoriu sau într-un răspuns despre proiect, nu scrie ca fapt nimic despre **amplasament** (accese,
   arii protejate, rețele, vecinătăți) fără documentele proiectului: marchează „de confirmat”.
 
+## Cum îl instalezi
+
+- **claude.ai (Team / Enterprise):** Admin settings › Plugins & skills › Add › Add marketplace, cu
+  `macsimotivus/archa-ai-plugin`; apoi pluginul „Archa-ai” din listă.
+- **claude.ai (Pro / Max):** Customize › Plugins › Add › Add marketplace, cu `macsimotivus/archa-ai-plugin`.
+- **Claude Code:**
+
+```
+/plugin install archa-ai --marketplace macsimotivus/archa-ai-plugin
+```
+
 ## Cum îl folosești
 
 Ai nevoie de un cont Archa-ai și de conectorul Archa-ai adăugat în Claude (vezi https://archa-ai.ro/integrare).
