@@ -25,11 +25,18 @@ incendiu, seismic, termic, instalații, parcaje și celelalte acte din bibliotec
 
 ## Cum îl folosești
 
-Ai nevoie de un cont Archa-ai și de conectorul Archa-ai adăugat în Claude (vezi https://archa-ai.ro/integrare).
+Ai nevoie de un cont Archa-ai. Pluginul aduce singur conectorul Archa-ai (`https://mcp.archa-ai.ro/plugin`):
+la prima folosire, Claude îți cere să te conectezi și te duce pe cont.archa-ai.ro, unde intri cu contul tău.
+Nu copiezi nicio cheie.
+
+Dacă ai deja conectorul Archa-ai adăugat de mână, cu cheia în adresă (https://archa-ai.ro/integrare), scoate-l
+după ce te-ai conectat prin plugin, ca să nu ai uneltele de două ori.
+
 Apoi pui întrebarea obișnuit, de exemplu „Care e lățimea minimă a unei scări de evacuare într-o clădire de
 birouri?”; pluginul se încarcă singur când întrebarea privește construcțiile din România.
 
 ## Date
 
-Pluginul conține doar instrucțiuni. Nu trimite și nu păstrează nimic singur: întrebările ajung la Archa-ai
-numai prin conectorul pe care îl adaugi și îl conectezi tu, cu contul tău.
+Pluginul conține instrucțiunile și adresa conectorului, fără nicio cheie. Întrebările ajung la Archa-ai numai
+după ce te conectezi tu, cu contul tău; conexiunea o poți retrage oricând din Claude sau schimbându-ți parola
+Archa-ai. Confidențialitate: https://archa-ai.ro/confidentialitate.

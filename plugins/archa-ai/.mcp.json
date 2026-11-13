@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "archa-ai": {
+      "type": "http",
+      "url": "https://mcp.archa-ai.ro/plugin"
+    }
+  }
+}
