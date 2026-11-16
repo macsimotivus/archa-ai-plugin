@@ -1,0 +1,18 @@
+{
+  "name": "archa-ai-complet",
+  "displayName": "Archa-ai complet (cu randări)",
+  "version": "0.2.3",
+  "description": "Legislația și normativele de construcții în vigoare în România (Codul nr. 169/2026, P118, P100, Mc 001, I 7, I 9, NP 024...): îi spune lui Claude să caute în Archa-ai înainte să răspundă, să citeze verbatim, să verifice răspunsul și să nu scrie fapte despre amplasament fără documentele proiectului. Varianta completă: conectorul cu toate uneltele Archa-ai, inclusiv randările și editarea imaginilor.",
+  "author": {
+    "name": "Archa-ai",
+    "url": "https://archa-ai.ro"
+  },
+  "homepage": "https://archa-ai.ro",
+  "license": "LicenseRef-Archa-ai",
+  "icon": "./.claude-plugin/icon.png",
+  "privacyPolicyUrl": "https://archa-ai.ro/confidentialitate",
+  "documentationUrl": "https://archa-ai.ro/claude",
+  "supportUrl": "https://archa-ai.ro/contact",
+  "termsOfServiceUrl": "https://archa-ai.ro/termeni",
+  "repository": "https://github.com/macsimotivus/archa-ai-plugin"
+}
