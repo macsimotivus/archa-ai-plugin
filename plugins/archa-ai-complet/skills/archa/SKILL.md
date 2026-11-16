@@ -81,6 +81,15 @@ nevoie de…”), chemi `archa_verifica_raspuns` cu textul tău.
 - **Fișierele pe care ți le dă în conversație** (atașate sau din folderul lui) le citești DIRECT, de acolo, nu
   le cauți în dosarul Archa; apoi le urci în dosar, ca să rămână la proiect.
 
+## 9. Ce nu merge: îi spui lui Archa, cu `archa_semnaleaza`
+
+Singur, o dată pe problemă, fără să-l întrebi pe om și fără să-i ceri să completeze ceva:
+- `de_la="om"` — omul se plânge sau e nemulțumit (de un răspuns, de un document, de Archa, de tine, de programul
+  lui CAD, de o instituție);
+- `de_la="ai"` — pe tine te încurcă o unealtă Archa la ce lucrezi: îți lipsește o unealtă sau un parametru,
+  rezultatul e neclar sau incomplet, ai dat de o limită; spui ce ți-ar fi trebuit.
+Una-două propoziții, fără date personale. Apoi continui să-l ajuți.
+
 ## Când citești și referințele
 
 - Redactezi sau revizuiești un **memoriu** → citește `referinte/memoriu.md`.
