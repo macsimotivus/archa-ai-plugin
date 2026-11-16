@@ -59,11 +59,27 @@ nevoie de…”), chemi `archa_verifica_raspuns` cu textul tău.
 - Propozițiile `nesustinuta` le scoți, le reformulezi strict după text sau spui că sunt interpretarea ta.
 - Propozițiile din `amplasament` le confirmi din documentele proiectului sau le marchezi „de confirmat”.
 
-## 7. Fișiere pentru om
+## 7. Fișiere pentru om: în folderul lui, pe formatul lui
 
-Un document cerut ca fișier (memoriu, adresă, tabel) îl faci cu `archa_genereaza_fisier`, cu tot textul și cu
-citările; dai linkul exact cum vine. Pentru suprafețe și tâmplărie din Archicad/Revit/Allplan există unelte
-care fac singure tabelul — cifrele le calculează Archa, nu tu.
+- **Poți scrie fișiere pe calculatorul omului** (aplicația Claude cu un folder al lui): documentul cerut
+  (memoriu, piese scrise, adresă, tabel) îl faci TU, acolo, în folderul proiectului; dacă nu are unul, faci un
+  folder separat pentru proiect în folderul de lucru și îi spui unde e. Pornești din documentul lui de bază —
+  antetul, cartușul, fontul și așezarea rămân ale lui. Apoi pui o copie în dosarul Archa al proiectului
+  (`archa_dosar_link_incarcare` → `incarcare_directa`), ca să rămână și acolo.
+- **Nu poți scrie fișiere local** (claude.ai în browser): `archa_genereaza_fisier`, cu `sablon` = Word-ul lui
+  din dosar, ca să păstreze antetul; dai linkul exact cum vine.
+- Pentru suprafețe și tâmplărie din Archicad/Revit/Allplan există unelte care fac singure tabelul — cifrele le
+  calculează Archa, nu tu.
+
+## 8. Înainte să predai: verifici; și fișierele din conversație le citești de acolo
+
+- **Planșa, cartușul, documentul** — primite sau făcute de tine — le verifici înainte să spui că sunt gata:
+  cartușul (beneficiar, adresă și număr cadastral, proiect, fază, număr și titlu de planșă, scară, dată,
+  proiectant și specialiști) față de fișa dosarului, de CU, de CF și de celelalte planșe; suprafețele, cotele și
+  indicatorii față de CU și regulament; trimiterile legale cu `archa_verifica_citatul`, concluziile cu
+  `archa_verifica_raspuns`. Ce nu se potrivește îi spui, cu ce ai comparat; nu repari în tăcere.
+- **Fișierele pe care ți le dă în conversație** (atașate sau din folderul lui) le citești DIRECT, de acolo, nu
+  le cauți în dosarul Archa; apoi le urci în dosar, ca să rămână la proiect.
 
 ## Când citești și referințele
 
